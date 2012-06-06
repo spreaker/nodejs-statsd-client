@@ -1,2 +1,2 @@
-# Node.jd statsd client
+# Node.js Statsd Client
 
