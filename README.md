@@ -21,9 +21,9 @@
 
 ## History
 
-### 1.0.0
+### 1.0.0 / 2012-06-07
 
- * This is the 3rd stats client for node.js. I don't like to re-invent the wheel and
+ * This is the 3rd statsd client for node.js. I don't like to re-invent the wheel and
    I must admint it's really a bad thing. However, I need a simple but working statsd
    client and it seems that (at the time of writing) the other modules suffer small
    bugs that prevent me to put it in production. Now you know cause there're 3 modules
