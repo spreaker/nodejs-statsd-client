@@ -4,7 +4,7 @@ var dgram   = require("dgram"),
 
 
 
-Client = function(host, port) {
+var Client = function(host, port) {
     this.host = host;
     this.port = port;
     
