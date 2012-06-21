@@ -21,6 +21,11 @@
 
 ## History
 
+### 1.0.1 / 2012-06-21
+ 
+ * Fixed global leak of Client (thanks to sreuter)
+
+
 ### 1.0.0 / 2012-06-07
 
  * This is the 3rd statsd client for node.js. I don't like to re-invent the wheel and
@@ -28,6 +33,11 @@
    client and it seems that (at the time of writing) the other modules suffer small
    bugs that prevent me to put it in production. Now you know cause there're 3 modules
    for such a simple client.
+
+
+## Contributors
+
+ * [sreuter](https://github.com/sreuter)
 
 
 ## Whishlist
