@@ -1,6 +1,11 @@
 # Node.js Statsd Client
 
 
+## How to install
+
+    npm install node-statsd-client
+
+
 ## How it works
 
     var Client = require('node-statsd-client').Client;
