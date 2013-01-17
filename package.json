@@ -1,6 +1,6 @@
 {
   "name": "node-statsd-client",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Statsd client for node.js",
   "keywords": ["statsd", "client"],
   "repository": "https://github.com/spreaker/nodejs-statsd-client.git",

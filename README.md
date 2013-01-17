@@ -26,6 +26,11 @@
 
 ## History
 
+### 1.0.2 / 2013-0117
+ 
+ * Removed unnecessary "underscore" dependency (thanks to omega)
+
+
 ### 1.0.1 / 2012-06-21
  
  * Fixed global leak of Client (thanks to sreuter)
