@@ -1,6 +1,5 @@
 var dgram   = require("dgram"),
-    util    = require("util"),
-    _       = require("underscore");
+    util    = require("util");
 
 
 
