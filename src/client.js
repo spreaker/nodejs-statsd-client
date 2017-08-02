@@ -32,6 +32,10 @@ Client.prototype.gauge = function(bucket, value) {
     this.send(bucket, value + "|g");
 };
 
+Client.prototype.set = function(bucket, value) {
+    this.send(bucket, value + "|s");
+};
+
 Client.prototype.send = function(bucket, value) {
     
     var buffer = new Buffer(bucket + ":" + value);
