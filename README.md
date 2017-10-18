@@ -3,7 +3,7 @@
 
 ### How to install
 
-``` bask
+``` bash
 npm install node-statsd-client
 ```
 
@@ -25,10 +25,16 @@ client.timing("request_ms", 250);
 
 // Gauge stat
 client.gauge("gauge_stats", 4);
+
+// Set stat
+client.set("set_stats", 3);
 ```
 
 
 ### Changes
+
+#### 1.0.4 (2017-10-18)
+ * Added stats sets support (thanks to [Asuza](https://github.com/Asuza))
 
 #### 1.0.3 (2015-03-26)
  * Added LICENSE (BSD)
@@ -50,4 +56,5 @@ client.gauge("gauge_stats", 4);
 
 ### Contributors
 
+ * [Asuza](https://github.com/Asuza)
  * [sreuter](https://github.com/sreuter)
